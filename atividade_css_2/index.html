@@ -13,7 +13,7 @@ Autor: Pablo Miyazawa Atualizado em 27 mar 2020
 -->
   <body>
     <div id="intro-pag">
-      <h1>Jogos antigos que fizeram história</h1>
+      <h1 class="titulo">Jogos antigos que fizeram história</h1>
       <p>
         O autor do artigo original fez um levantamento com 30 jogos mais
         influentes/importantes para a evolução dos jogos na indústria do
@@ -21,32 +21,34 @@ Autor: Pablo Miyazawa Atualizado em 27 mar 2020
         jogos iniciais dessa lista. Para quem deseja ver o restante do artigo, o
         link completo está disponível no cógido HTML dessa atividade :)
       </p>
-      <h2>Lista com jogos influentes:</h2>
-      <nav>
-        <ul>
-          <a href="#space"><li>1978 - Space Invaders</li></a>
-          <a href="#pac"><li>1980 - Pac Man</li></a>
-          <a href="#dk"><li>1981 - Donkey Kong</li></a>
-          <a href="#mario"><li>1985 - Super Mario Bros.</li></a>
-        </ul>
+      <h2 class="titulo">Lista com jogos influentes:</h2>
+      <nav id="lista">
+        <ol>
+          <a href="#space" class="link"><li>1978 - Space Invaders</li></a>
+          <a href="#pac" class="link"><li>1980 - Pac Man</li></a>
+          <a href="#dk" class="link"><li>1981 - Donkey Kong</li></a>
+          <a href="#mario" class="link"><li>1985 - Super Mario Bros.</li></a>
+        </ol>
       </nav>
     </div>
     <div class="conteudo-padrao">
-      <h2 id="space">1978 – Space Invaders</h2>
+      <h2 id="space" class="titulo">1978 – Space Invaders</h2>
       <p>
         Se Pong fez as pessoas se acostumarem a jogar em público, Space Invaders
         levou o vício a um novo patamar. Foi o produto que deu um sopro de ânimo
         a um abatido nicho de mercado e que inspirou muitos pretendentes a
         designers a seguir na profissão (Shigeru Miyamoto, da Nintendo, e Hideo
-        Kojima, da Konami, se declaram influenciados pelo jogo). Em 1978, a
-        presença de Space Invaders no Japão era maciça – em bares, restaurantes,
+        Kojima, da Konami, se declaram influenciados pelo jogo).</p>
+
+        <img src="img-space-invaders.avif" alt="imagem jogo space invaders" class="imagens"/>
+      
+      <p>Em 1978, a presença de Space Invaders no Japão era maciça – em bares, restaurantes,
         shopping centers. Em dois anos, a Taito distribuiu 360 mil máquinas no
         mundo (um sexto delas apenas nos EUA), que renderam mais de US$ 2
-        bilhões em fichas (moedas, no caso) ao final de 1982.
-      </p>
+        bilhões em fichas (moedas, no caso) ao final de 1982.</p>
     </div>
     <div class="conteudo-padrao">
-      <h2 id="pac">1980 – Pac-Man</h2>
+      <h2 id="pac" class="titulo">1980 – Pac-Man</h2>
       <p>
         O grande público já estava mais acostumado aos videogames na entrada da
         nova década, o que fez o sucesso de Pac-Man algo inevitável. Pela
@@ -55,7 +57,8 @@ Autor: Pablo Miyazawa Atualizado em 27 mar 2020
         perseguida por fantasmas obcecados.
       </p>
 
-      <img src="pacman.jpg" alt="imagem jogo pacman" />
+      <img src="pacman.jpg" alt="imagem jogo pacman" class="imagens"/>
+
       <p>
         Antes do herói criado por Toru Iwatani (diz a lenda que ele se inspirou
         no formato de uma pizza cortada para criá-lo), games eram estrelados por
@@ -66,7 +69,7 @@ Autor: Pablo Miyazawa Atualizado em 27 mar 2020
     </div>
 
     <div class="conteudo-padrao">
-      <h2 id="dk">1981 – Donkey Kong</h2>
+      <h2 id="dk" class="titulo">1981 – Donkey Kong</h2>
       <p>
         O marco zero das narrativas nos games também é cele­brado por ter sido o
         primeiro jogo dirigido por Shigeru Miyamoto, na época um promissor
@@ -80,12 +83,11 @@ Autor: Pablo Miyazawa Atualizado em 27 mar 2020
         jogo. A disputa entre os dois principais jogadores foi retratada no
         ótimo documentário King of Kong.
       </p>
-      <img src="dk.jpg" alt="imagem jogo donkey kong">
+      <img src="dk.jpg" alt="imagem jogo donkey kong" class="imagens">
     </div>
 
     <div class="conteudo-padrao">
-      <h2 id="mario">1985 – Super Mario Bros.</h2>
-      <img src="mario.jpg" alt="imagem jogo super mario">
+      <h2 id="mario" class="titulo">1985 – Super Mario Bros.</h2>
       <p>
         Criado por Shigeru Miyamoto, Super Mario Bros. revolucionou de cara,
         obrigando o jogador a seguir sempre adiante, explorando oito mundos com
@@ -95,9 +97,13 @@ Autor: Pablo Miyazawa Atualizado em 27 mar 2020
         controlado de modo tão refinado e preciso. Simples de aprender e difícil
         de dominar (e largar), foi inspiração para todos os games de ação.
       </p>
+
+      <img src="super-mario-bros-nes.png" alt="imagem jogo super mario" class="imagens">
     </div>
 
 
-    <footer>Aula para formatação de CSS.</footer>
+    <footer>
+      <p>Aula para formatação de CSS.</p><p id="nome">Marcos Vinícius Cunha de Andrade</p>
+    </footer>
   </body>
 </html>
