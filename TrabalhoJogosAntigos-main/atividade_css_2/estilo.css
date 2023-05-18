@@ -1,0 +1,90 @@
+body{
+    background-color:;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+p{
+    text-align: justify;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+li{
+    color: ;
+}
+
+/*classes*/
+.imagens{
+    width: 624px;
+    height: 417px;
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+}
+
+.conteudo-padrao{
+    background-color: ;
+    border: 2px black solid;
+    width: 60%;
+    color:;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    border-radius: 25px;
+}
+
+.titulo{
+    color: ;
+}
+
+.tituloint{
+    color: ;
+}
+
+.imgctt{
+    width: 40px;
+    height: 40px;
+}
+
+/*IDs*/
+
+#lista{
+    width: 12%;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#intro-pag{
+    color: ;
+}
+
+#introducao{
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    color: ;
+}
+
+#tituloint{
+    color: ;
+}
+
+#rdp{
+    text-align: center;
+}
+
+/*paleta de cores*/
+:root{
+    --corfundo: #6C00FF;
+    --corconteudo: #00D2FC;
+    --corh1: #477C30;
+    --fundocont: #F4F1E0;
+}
+
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,600&display=swap');
+
