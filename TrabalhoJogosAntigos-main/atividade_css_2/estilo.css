@@ -1,7 +1,8 @@
 body{
-    background-color:;
+    background-color: var(--corprincipal);
     text-align: center;
     font-family: 'Poppins', sans-serif;
+    color: white;
 }
 
 p{
@@ -11,7 +12,18 @@ p{
 }
 
 li{
-    color: ;
+    color: white;
+    text-decoration:none;
+}
+
+footer{
+    background-color: var(--corconteudo);
+    border: 2px white solid;
+    border-radius: 25px;
+    color: white;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /*classes*/
@@ -20,16 +32,15 @@ li{
     height: 417px;
 }
 
-.link{
+.linl{
     text-decoration: none;
-    color: black;
 }
 
 .conteudo-padrao{
-    background-color: ;
-    border: 2px black solid;
+    background-color: var(--fundocont);
+    border: 2px white solid;
     width: 60%;
-    color:;
+    color: black;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 10px;
@@ -37,16 +48,31 @@ li{
 }
 
 .titulo{
-    color: ;
+    color:black;
+    background-color:var(--corconteudo);
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
 }
 
 .tituloint{
-    color: ;
+    color: white;
+    background-color: var(--fundocont);
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
 }
 
 .imgctt{
     width: 40px;
     height: 40px;
+}
+
+.zap{
+    width: 45px;
+    height: 45px;
 }
 
 /*IDs*/
@@ -58,19 +84,10 @@ li{
     margin-right: auto;
 }
 
-#intro-pag{
-    color: ;
-}
-
 #introducao{
     margin-left: auto;
     margin-right: auto;
     width: 60%;
-    color: ;
-}
-
-#tituloint{
-    color: ;
 }
 
 #rdp{
@@ -79,10 +96,10 @@ li{
 
 /*paleta de cores*/
 :root{
-    --corfundo: #6C00FF;
-    --corconteudo: #00D2FC;
+    --corprincipal: #34067F;
+    --corconteudo: #644F7D;
     --corh1: #477C30;
-    --fundocont: #F4F1E0;
+    --fundocont:#B1A8B9;
 }
 
 /*Fonts*/
